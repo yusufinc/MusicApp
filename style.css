@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+#controls {
+  font-size: 30px;
+  color: purple;
+}
+
+.container {
+  width: 400px !important;
+  height: 400px !important;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.volume-container i {
+  margin-left: px;
+}
+
+#music-image {
+  width: 374px;
+  height: 210px;
+  object-fit: cover;
+}
+
+#music-list {
+  max-height: 123px;
+  overflow-y: scroll;
+}
+
+#music-list li:hover {
+  cursor: pointer;
+  background-color: #0b5eb7;
+  color: #fff;
+}
+
+li.playing {
+  background-color: #0b5eb7;
+  color: #fff;
+}
